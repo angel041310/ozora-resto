@@ -44,7 +44,7 @@ body{
 
 #content #menu01 #kare-judul{
     position: absolute;
-    left: 202px;
+    left: auto;
     top: 820px;
 }
 
