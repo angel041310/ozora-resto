@@ -42,6 +42,16 @@ body{
     margin: 0 auto;
 }
 
+#content #menu01 #kare-judul{
+    position: absolute;
+    left: 202px;
+    top: 820px;
+}
+
+#content #menu01 #kare-foto{
+    position: relative;
+}
+
 #menu02{
     background: url(../IMG/bg-2.jpg);
     min-height: 200px;
