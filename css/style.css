@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(240, 255, 239, 0.608);
+}
+
+#top{
+    background: url(../IMG/bg-top.jpg);
+    min-height: 619px;
+}
+
+.title{
+    padding-left: 75px;
+}
+
+.menu{
+    padding-top: 18px;
+    text-align: center;
+    ;
+}
+
+#wrapper .menu #biru01{
+    opacity: 0.6;
+    padding-top: 49px;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 990px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#menu01{
+    background: url(../IMG/bg-1.jpg);
+    min-height: 1019px;
+    max-width: 990px;
+    margin: 0 auto;
+}
+
+#menu02{
+    background: url(../IMG/bg-2.jpg);
+    min-height: 200px;
+    max-width: 990px;
+    margin: 0 auto;
+}
