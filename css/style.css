@@ -50,7 +50,7 @@ body{
 }
 
 #menu01{
-    background: url(../IMG/bg-1.jpg);
+    background: url(../IMG/bg-1_02.jpg);
     min-height: 1019px;
     max-width: 990px;
     margin: 0 auto;
@@ -81,10 +81,11 @@ body{
 #content #menu01 p{
     color: rgb(13, 32, 130);
     font-family: maru-gothic-med;
-    padding-top: 415px;
+    padding-top: 410px;
     padding-left: 90px;
     font-size: 32px;
-    font-weight: 500;
+    font-weight: 600;
+    line-height: 60px;
 }
 
 #menu02{
