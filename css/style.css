@@ -1,3 +1,8 @@
+@font-face {
+    font-family: maru-gothic-med;
+    src: url(../font/ZenMaruGothic-Medium.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -54,12 +59,32 @@ body{
 #content #menu01 #kare-judul{
     position: absolute;
     left: auto;
-    top: 810px;
+    top: 800px;
 }
 
 #content #menu01 #kare-foto{
     position: relative;
     top: 40px;
+    float: left;
+}
+
+#content #menu01 h2{
+    color: rgb(13, 32, 130);
+    font-family: maru-gothic-med;
+    position: relative;
+    top: 365px;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+#content #menu01 p{
+    color: rgb(13, 32, 130);
+    font-family: maru-gothic-med;
+    padding-top: 415px;
+    padding-left: 90px;
+    font-size: 32px;
+    font-weight: 500;
 }
 
 #menu02{
