@@ -11,10 +11,12 @@ body{
 #top{
     background: url(../IMG/bg-top.jpg);
     min-height: 619px;
+    background-repeat: no-repeat;
+
 }
 
 .title{
-    padding-left: 75px;
+    padding-left: 68px;
 }
 
 .menu{
@@ -23,9 +25,16 @@ body{
     ;
 }
 
-#wrapper .menu #biru01{
-    opacity: 0.6;
-    padding-top: 49px;
+#sub-title{
+    position: relative;
+    justify-content: center;
+}
+
+#wrapper .menu #kare-menu, #ramen-menu, #hitsumabushi-menu{
+    position: relative;
+    width: 30%;
+    padding-left: 30px;
+    justify-content: center;
 }
 
 #wrapper {
@@ -45,11 +54,12 @@ body{
 #content #menu01 #kare-judul{
     position: absolute;
     left: auto;
-    top: 820px;
+    top: 810px;
 }
 
 #content #menu01 #kare-foto{
     position: relative;
+    top: 40px;
 }
 
 #menu02{
