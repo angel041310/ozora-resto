@@ -100,11 +100,21 @@ body{
     min-height: 832px;
     max-width: 990px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 #ramen-judul{
-    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
     left: auto;
-    padding-left: 1040px;
-    top: 1500px;
+    position: relative;
+}
+
+#ramen-foto{
+    float: right;
+    position: relative;
+    padding-top: 100px;
+    padding-right: 1005px;
+    text-align: right;
 }
