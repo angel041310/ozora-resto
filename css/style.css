@@ -93,16 +93,17 @@ h2{
     padding-left: 90px;
 }
 
-#content #menu01 #note{
+.note{
     color: red;
-    padding-left: 90px;
-    padding-top: 20px;
     font-size: 23px;
     font-family: maru-gothic-med;
-    padding-bottom: 6%;
 }
 
-
+#content #menu01 .note{
+    padding-left: 90px;
+    padding-top: 20px;
+    padding-bottom: 6%;
+}
 
 #ramen-judul{
     display: flex;
@@ -121,22 +122,20 @@ h2{
 
 #content #menu02 h2{
     position: relative;
-    top: -390px;
+    top: -380px;
     left: 80px;
 }
 
 #content #menu02 #ramen-desc{
     position: relative;
     padding-left: 80px;
-    top: -350px;
+    top: -330px;
 }
 
-#menu03{
-    background: url(../IMG/bg-3.jpg);
-    min-height: 832px;
-    max-width: 990px;
-    margin: 0 auto;
-    overflow: hidden;
+#content #menu02 .note{
+    position: relative;
+    top: -300px;
+    padding-left: 80px;
 }
 
 #hitsumabushi-judul{
@@ -145,12 +144,35 @@ h2{
     margin: 0 auto;
     left: auto;
     position: absolute;
-    top: 2500px;
+    top: 2440px;
 }
-
 
 #hitsumabushi-foto{
     position: relative;
     float: left;
-    top: -100px;
+    top: -250px;
+}
+
+#hitsumabushi-desc{
+    position: absolute;
+    padding-left: 80px;    
+    top: 2950px;
+}
+#content #menu03 h2{
+    position: relative;
+    top: 25px;
+}
+
+#content #menu03 .note{
+    position: absolute;
+    top: 3230px;
+    padding-left: 80px;
+}
+
+#bottom{
+    background: url(../IMG/bg-bottom.jpg);
+    min-height: 516px;
+    max-width: 990px;
+    margin: 0 auto;
+
 }
