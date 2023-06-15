@@ -49,42 +49,48 @@ body{
     margin: 0 auto;
 }
 
-#menu01{
-    background: url(../IMG/bg-1_02.jpg);
+#content{
+    background: url(../IMG/bg-content.jpg);
     max-width: 990px;
     margin: 0 auto;
+    min-height: 2665px;
 }
 
-#content #menu01 #kare-judul{
+#kare-judul{
     position: absolute;
     left: auto;
     top: 800px;
 }
 
-#content #menu01 #kare-foto{
+#kare-foto{
     position: relative;
     top: 40px;
     float: left;
 }
 
-#content #menu01 h2{
+h2{
     color: rgb(13, 32, 130);
     font-family: maru-gothic-med;
-    position: relative;
-    top: 365px;
     font-size: 45px;
     font-weight: bold;
-
 }
 
-#content #menu01 #desc{
+#content #menu01 h2{
+    position: relative;
+    top: 365px;
+}
+
+.desc{
     color: rgb(13, 32, 130);
     font-family: maru-gothic-med;
-    padding-top: 410px;
-    padding-left: 90px;
     font-size: 32px;
     font-weight: 600;
     line-height: 60px;
+}
+
+#content #menu01 .desc{
+    padding-top: 410px;
+    padding-left: 90px;
 }
 
 #content #menu01 #note{
@@ -93,28 +99,58 @@ body{
     padding-top: 20px;
     font-size: 23px;
     font-family: maru-gothic-med;
+    padding-bottom: 6%;
 }
 
-#menu02{
-    background: url(../IMG/bg-2.jpg);
-    min-height: 832px;
-    max-width: 990px;
-    margin: 0 auto;
-    overflow: hidden;
-}
+
 
 #ramen-judul{
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     left: auto;
-    position: relative;
+    position: absolute;
 }
 
 #ramen-foto{
-    float: right;
     position: relative;
-    padding-top: 100px;
-    padding-right: 1005px;
-    text-align: right;
+    padding-left: 600px;
+    float: right;
+    top: -100px;
+}
+
+#content #menu02 h2{
+    position: relative;
+    top: -390px;
+    left: 80px;
+}
+
+#content #menu02 #ramen-desc{
+    position: relative;
+    padding-left: 80px;
+    top: -350px;
+}
+
+#menu03{
+    background: url(../IMG/bg-3.jpg);
+    min-height: 832px;
+    max-width: 990px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#hitsumabushi-judul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    left: auto;
+    position: absolute;
+    top: 2500px;
+}
+
+
+#hitsumabushi-foto{
+    position: relative;
+    float: left;
+    top: -100px;
 }
