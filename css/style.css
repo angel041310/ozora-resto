@@ -3,6 +3,8 @@
     src: url(../font/ZenMaruGothic-Medium.ttf);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -160,7 +162,7 @@ h2{
 }
 #content #menu03 h2{
     position: relative;
-    top: 25px;
+    top: 2px;
 }
 
 #content #menu03 .note{
@@ -174,5 +176,50 @@ h2{
     min-height: 516px;
     max-width: 990px;
     margin: 0 auto;
+    background-repeat: no-repeat;
+}
 
+#bg-kayu{
+    padding-top: 30px;
+}
+
+#button{
+    position: relative;
+    top: -170px;
+    padding-left: 150px;
+}
+
+#bg-akses{
+    position: relative;
+    top: -200px;
+}
+
+#akses-judul{
+    position: relative;
+    top: -530px;
+    padding-left: 90px;
+}
+
+#akses p{
+    position: relative;
+    top: -530px;
+    padding-left: 90px;
+}
+
+#lokasi{
+    color: black;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Gothic A1', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    padding-top: 30px;
+    margin-left: -10px;
+}
+
+#attention{
+    color: rgb(255, 255, 255);
+    font-family: maru-gothic-med;
+    font-size: 27px;
+    margin-left: -30px;
 }
